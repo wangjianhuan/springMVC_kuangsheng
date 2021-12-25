@@ -87,6 +87,7 @@ public class HelloServlet extends HttpServlet {
             req.getSession().setAttribute("msg", "执行了delete方法！");
         }
         //2.调用业务层
+
         //3.转发或者重定向
         req.getRequestDispatcher("/WEB-INF/jsp/test.jsp").forward(req, resp);
     }
