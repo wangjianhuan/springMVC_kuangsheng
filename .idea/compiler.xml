@@ -10,6 +10,7 @@
         <module name="springmvc-04-annotation" />
         <module name="springmvc-05-controller" />
         <module name="springMVC-03-hello-back" />
+        <module name="ssmbuild" />
         <module name="springmvc-01-serlvet" />
         <module name="springmvc-02-hello" />
       </profile>
