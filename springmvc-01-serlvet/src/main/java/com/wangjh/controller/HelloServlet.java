@@ -1,4 +1,4 @@
-package com.wangjh.servlet;
+package com.wangjh.controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;

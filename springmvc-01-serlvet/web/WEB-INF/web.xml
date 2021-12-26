@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>hello</servlet-name>
-        <servlet-class>com.wangjh.servlet.HelloServlet</servlet-class>
+        <servlet-class>com.wangjh.controller.HelloServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>hello</servlet-name>

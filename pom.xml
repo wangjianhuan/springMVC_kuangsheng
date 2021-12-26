@@ -11,6 +11,7 @@
     <modules>
         <module>springmvc-01-serlvet</module>
         <module>springmvc-02-hello</module>
+        <module>springMVC-03-hello-back</module>
     </modules>
 
     <properties>
