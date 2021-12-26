@@ -12,6 +12,7 @@
         <module>springmvc-01-serlvet</module>
         <module>springmvc-02-hello</module>
         <module>springMVC-03-hello-back</module>
+        <module>springmvc-04-annotation</module>
     </modules>
 
     <properties>
@@ -57,5 +58,27 @@
             <version>5.7.13</version>
         </dependency>
     </dependencies>
+
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
 
 </project>
