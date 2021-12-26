@@ -20,6 +20,6 @@ public class ControllerTest4 {
     public String test(@PathVariable int a,@PathVariable int b, Model model) {
         int res = a + b;
         model.addAttribute("msg", "a+b的结果是：" + res);
-        return "test1";
+        return "test";
     }
 }

@@ -15,6 +15,6 @@ public class ControllerTest2 {
     @RequestMapping("test2")
     public String test1(Model model){
         model.addAttribute("msg" ,"这个是注解开发的Controller！");
-        return "test1";
+        return "test";
     }
 }

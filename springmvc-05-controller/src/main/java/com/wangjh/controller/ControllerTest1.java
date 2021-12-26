@@ -29,7 +29,7 @@ public class ControllerTest1 implements Controller {
 
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("msg" ,"这个是实现了Controller接口！");
-        modelAndView.setViewName("test1");
+        modelAndView.setViewName("test");
         return modelAndView;
     }
 }
