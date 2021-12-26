@@ -22,6 +22,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.10" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.10" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.10" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.16" />
         </element>
       </element>
     </root>
