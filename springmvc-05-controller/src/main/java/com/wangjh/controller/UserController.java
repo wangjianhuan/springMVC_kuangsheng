@@ -44,7 +44,7 @@ public class UserController {
 
     @GetMapping("t3")
     public String test3(ModelMap map){
-        map.addAttribute();
+        map.addAttribute("");
 
         return "test";
 
