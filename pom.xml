@@ -15,6 +15,7 @@
         <module>springmvc-04-annotation</module>
         <module>springmvc-05-controller</module>
         <module>ssmbuild</module>
+        <module>springmvc-08-intercepter</module>
     </modules>
 
     <properties>

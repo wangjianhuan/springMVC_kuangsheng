@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springmvc-04-annotation" />
         <module name="springmvc-05-controller" />
+        <module name="springmvc-02-hello" />
+        <module name="springmvc-04-annotation" />
+        <module name="springmvc-08-intercepter" />
         <module name="springMVC-03-hello-back" />
         <module name="ssmbuild" />
         <module name="springmvc-01-serlvet" />
-        <module name="springmvc-02-hello" />
       </profile>
     </annotationProcessing>
   </component>
