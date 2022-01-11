@@ -10,11 +10,26 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wangjh</groupId>
-    <artifactId>springmvc-08-intercepter</artifactId>
+    <artifactId>springmvc-09-file</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <!--文件上传-->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+    </dependencies>
 
 </project>
